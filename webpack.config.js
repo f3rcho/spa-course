@@ -25,12 +25,12 @@ module.exports = {
     },
     //SETTING PLUGINS
     plugins: [
-        new HtmlWebpackPlugin([
+        new HtmlWebpackPlugin(
             {
                 inject: true,
                 template: './public/index.html',
                 filename: './index.html',
             }
-        ])
+        ),
     ]
 }
