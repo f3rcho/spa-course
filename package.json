@@ -6,7 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["single page application", "javascript"],
+  "keywords": [
+    "single page application",
+    "javascript"
+  ],
   "author": "Fernando Cordero",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.0.4",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
 }
