@@ -1,6 +1,6 @@
 const Header = () => {
     const view = `
-    <div class="Hearder-main">
+    <div class="Header-main">
         <div class="Header-logo">
             <h1>
                 <a href="/">
